@@ -6,7 +6,6 @@ module.exports = {
       lang: 'zh-CN',
     },
   },
-  title: '杭州购房指南',
   base: '/',
   head: [
     [ 'script', {src: 'https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js'} ],
