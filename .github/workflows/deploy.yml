@@ -1,0 +1,37 @@
+name: Deploy
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download Source file
+        uses: actions/checkout@v2
+        with:
+          ref: master
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+
+      - name: Build Vuepress
+        run: |
+          rm -f .yarnclean yarn.lock
+          yarn --non-interactive --silent
+          yarn list --depth=0
+          yarn run build
+
+      - name: Upload to Qiniu
+        uses: saltbo/uptoc@master
+        with:
+          driver: qiniu
+          region: cn-east-1
+          bucket: hzhouse
+          dist: .vuepress/dist
+        env:
+          UPTOC_UPLOADER_AK: ${{ secrets.QINIU_ACCESSKEY }}
+          UPTOC_UPLOADER_SK: ${{ secrets.QINIU_SECRETKEY }}
