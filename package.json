@@ -1,0 +1,28 @@
+{
+  "name": "hangzhou-house-guide",
+  "version": "0.0.0",
+  "description": "Hangzhou house guide",
+  "main": "index.js",
+  "repository": "https://github.com/zkqiang/hangzhou-house-guide",
+  "author": "zkqiang (https://github.com/zkqiang)",
+  "license": "CC-BY-NC-SA",
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.8.2",
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "@vuepress/plugin-medium-zoom": "^1.8.2",
+    "@vuepress/plugin-nprogress": "^1.8.2",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-clean-urls": "^1.1.2",
+    "vuepress-plugin-seo": "^0.1.4",
+    "vuepress-plugin-sitemap": "^2.3.1"
+  },
+  "dependencies": {
+    "markdown-it-disable-url-encode": "^1.0.1"
+  }
+}
