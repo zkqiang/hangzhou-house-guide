@@ -1,0 +1,26 @@
+body
+  font-size 15px
+
+ins.adsbygoogle[data-ad-status="unfilled"]
+  display none !important
+
+.side-ads
+  position sticky
+  top 5rem
+  left 100%
+  width calc((100vw - 320px - 740px) / 2 - 12px)
+  height 0
+  margin-right calc(((100vw - 320px - 740px) / 2 - 12px) * -1)
+  display flex
+  justify-content center
+
+  & > ins.adsbygoogle
+    display inline-block
+    min-width 160px
+    max-width 250px
+    width 100%
+    height 600px
+
+@media (max-width: 1440px)
+  .side-ads
+    display none

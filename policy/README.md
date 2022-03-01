@@ -7,6 +7,8 @@ meta:
   content: 购房,买房,选房,摇号,限购,刚需,规划,政策,新房,二手房,房贷,杭州,西湖区,拱墅,余杭,未来科技城,良渚,钱江世纪城,运河新城
 ---
 
+<Adsense :data-ad-client=$themeConfig.ads.client :data-ad-slot=$themeConfig.ads.slot is-new-ads-code="yes" class="side-ads"></Adsense>
+
 # 政策
 
 ## 购房政策
@@ -40,6 +42,8 @@ meta:
 - 投靠子女落户的老人，需要满5年才有购房资格。
 
 - 限购范围内住房赠与他人的，赠与人需满3年才能购买限购范围内住房；受赠人家庭须符合住房限购政策（不含遗赠）。
+
+<InArticleAdsense :data-ad-client=$themeConfig.ads.client :data-ad-slot=$themeConfig.ads.inSlot is-new-ads-code="yes"></InArticleAdsense>
 
 ### 落户政策
 
@@ -80,6 +84,8 @@ meta:
 商业住房贷款新申请的都是按 LPR 利率 + 上浮基点计算利率。其中 LPR 利率是全国统一利率，央行会不定期进行调整，并且即使贷款已经批下来，利率还是会受影响；而上浮基点则是每家银行自行设定，并且只要贷款合同签订后则不再变化。
 
 因此当政策和放贷收紧时，一般上浮基点都会明显提高，以限制更多的房贷申请。另外一般二套房的上浮基点会更高一点。
+
+<InArticleAdsense :data-ad-client=$themeConfig.ads.client :data-ad-slot=$themeConfig.ads.inSlot is-new-ads-code="yes"></InArticleAdsense>
 
 ### 公积金贷款
 

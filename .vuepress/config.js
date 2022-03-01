@@ -33,7 +33,12 @@ module.exports = {
     docsDir: '/',
     docsBranch: 'master',
     editLinks: true,
-    smoothScroll: false,
+    smoothScroll: true,
+    ads: {
+      client: 'ca-pub-2938778520580915',
+      slot: '6059227456',
+      inSlot: '4239751461'
+    }
   },
   markdown: {
     extendMarkdown: (md) => {

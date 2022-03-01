@@ -7,6 +7,8 @@ meta:
   content: 购房,买房,选房,摇号,限购,刚需,规划,政策,新房,二手房,房贷,杭州,西湖区,拱墅,余杭,未来科技城,良渚,钱江世纪城,运河新城
 ---
 
+<Adsense :data-ad-client=$themeConfig.ads.client :data-ad-slot=$themeConfig.ads.slot is-new-ads-code="yes" class="side-ads"></Adsense>
+
 # 问题建议
 
 ## 新房vs二手房
@@ -24,6 +26,8 @@ meta:
 首先个人不建议负债太多强行上车，目前银行贷款紧张对首付也监管很严格。
 
 杭州虽然名义上市区面积很大，但是实际活跃市区范围并不大，如果资金不充裕但有想尽快上车，建议扩大楼盘搜索范围，选择偏远但仍有一定发展前景的地区，如良渚、瓶窑、崇贤、闲林、南部卧城等这些板块。省下来的钱买一辆车作为通勤工具，等过几年有实力后再进行置换，总好过一直租房处于焦虑情绪。
+
+<InArticleAdsense :data-ad-client=$themeConfig.ads.client :data-ad-slot=$themeConfig.ads.inSlot is-new-ads-code="yes"></InArticleAdsense>
 
 ## 更多问题
 

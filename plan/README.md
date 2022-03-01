@@ -7,6 +7,8 @@ meta:
   content: 购房,买房,选房,摇号,限购,刚需,规划,政策,新房,二手房,房贷,杭州,西湖区,拱墅,余杭,未来科技城,良渚,钱江世纪城,运河新城
 ---
 
+<Adsense :data-ad-client=$themeConfig.ads.client :data-ad-slot=$themeConfig.ads.slot is-new-ads-code="yes" class="side-ads"></Adsense>
+
 # 规划
 
 无论是购置新房还是二手房，都应该先了解杭州市区的规划，帮助我们选择更适合居住更有发展空间的地段。
@@ -39,6 +41,8 @@ meta:
 
 目前地铁第四期规划已在申报中，应该不久后就将揭晓，网上流传版本无法确定可靠性，因此这里不放出了。
 
+<InArticleAdsense :data-ad-client=$themeConfig.ads.client :data-ad-slot=$themeConfig.ads.inSlot is-new-ads-code="yes"></InArticleAdsense>
+
 ## 道路规划
 
 杭州高峰期堵车现象确实比较常见，特别是近几年修建地铁造成封路加剧了这个问题。但是如果是中远距离驾车，由于热门区块之间都规划有地下路、高架路、隧道等快速路，反而会有更快的行车速度，大幅缩短了通勤时间。
@@ -63,6 +67,8 @@ meta:
 |  江东站  | 大江东新湾 |  在建  |  5台11线  |  新规划站点，全线为高铁线路  |
 |  机场站  | 萧山机场南侧 |  在建  |  2台4线  | 新规划站点，高铁对接萧山机场、浦东机场，便于机场旅客快速换乘  |
 |  萧山机场  | 萧山南 |  在运营  |  2条跑道  | 唯一机场，目前正在第三期扩建，扩建规模为4条跑道、9000万人次  |
+
+<InArticleAdsense :data-ad-client=$themeConfig.ads.client :data-ad-slot=$themeConfig.ads.inSlot is-new-ads-code="yes"></InArticleAdsense>
 
 ## 商业综合体
 

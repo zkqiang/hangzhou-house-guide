@@ -7,6 +7,8 @@ meta:
   content: 购房,买房,选房,摇号,限购,刚需,规划,政策,新房,二手房,房贷,杭州,西湖区,拱墅,余杭,未来科技城,良渚,钱江世纪城,运河新城
 ---
 
+<Adsense :data-ad-client=$themeConfig.ads.client :data-ad-slot=$themeConfig.ads.slot is-new-ads-code="yes" class="side-ads"></Adsense>
+
 # 购房
 
 ## 购置新房
@@ -34,6 +36,8 @@ meta:
 可以看出人才身份实际参与了三次摇号，而无房家庭也参与了两次摇号，因此概率上会有明显优势。
 
 并且对于无房家庭还有一项特别照顾，如果公示价格低于35,000元/平方，则无房家庭倾斜比例固定为50%，其他比例则由相关部门审批决定。
+
+<InArticleAdsense :data-ad-client=$themeConfig.ads.client :data-ad-slot=$themeConfig.ads.inSlot is-new-ads-code="yes"></InArticleAdsense>
 
 ### 高层次人才
 
@@ -85,6 +89,8 @@ meta:
 2. 购买综合中签率低于10%的房源（综合中签率=中签户数/报名总户数，由于存在相同月数入围的情况，依然可能低于10%）。
 
 限售是以缴纳房产契税之日开始计算，而缴纳契税必须在交房之后，因此实际限售一般长达7~8年。
+
+<InArticleAdsense :data-ad-client=$themeConfig.ads.client :data-ad-slot=$themeConfig.ads.inSlot is-new-ads-code="yes"></InArticleAdsense>
 
 ### 交付
 

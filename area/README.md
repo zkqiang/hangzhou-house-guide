@@ -7,6 +7,8 @@ meta:
   content: 购房,买房,选房,摇号,限购,刚需,规划,政策,新房,二手房,房贷,杭州,西湖区,拱墅,余杭,未来科技城,良渚,钱江世纪城,运河新城
 ---
 
+<Adsense :data-ad-client=$themeConfig.ads.client :data-ad-slot=$themeConfig.ads.slot is-new-ads-code="yes" class="side-ads"></Adsense>
+
 # 板块
 
 这个单元将着重对杭州购房几个热门板块进行介绍，并主观上分析它们的优势和劣势。
@@ -56,6 +58,8 @@ meta:
 虽然板块面积只有22平方公里，但是由于紧邻西靠滨江区，北望钱江新城，东临萧山科技城，南接萧山核心，并且仅凭现有配套就已经是高配置成熟板块。因此二手房也是突破天际的价位，并且豪宅遍地。这也让新盘限价呈现巨额的倒挂，买到就是几百万的收益，所以基本满社保月数才有资格入围摇号。
 
 不过周围板块如市北、宁围这些板块无论价格和中签率都更平民一些，感兴趣可以考虑。
+
+<InArticleAdsense :data-ad-client=$themeConfig.ads.client :data-ad-slot=$themeConfig.ads.inSlot is-new-ads-code="yes"></InArticleAdsense>
 
 ## 运河新城
 
