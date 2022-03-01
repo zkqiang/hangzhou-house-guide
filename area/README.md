@@ -1,15 +1,6 @@
----
-metaTitle: 板块 | 杭州购房指南
-meta:
-- name: description
-  content: 2022年杭州购房指南，根据个人多年购房选房经历，总结而成的一篇买房攻略，涉及新房摇号和二手房选择，包含大量杭州城市规划资料。
-- name: keywords
-  content: 购房,买房,选房,摇号,限购,刚需,规划,政策,新房,二手房,房贷,杭州,西湖区,拱墅,余杭,未来科技城,良渚,钱江世纪城,运河新城
----
+# 板块
 
 <Adsense :data-ad-client=$themeConfig.ads.client :data-ad-slot=$themeConfig.ads.slot is-new-ads-code="yes" class="side-ads"></Adsense>
-
-# 板块
 
 这个单元将着重对杭州购房几个热门板块进行介绍，并主观上分析它们的优势和劣势。
 
