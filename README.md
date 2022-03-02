@@ -33,7 +33,7 @@
   - [未来科技城](https://hzhouse.zkqiang.cn/area/#未来科技城)
   - [钱江世纪城](https://hzhouse.zkqiang.cn/area/#钱江世纪城)
   - [运河新城](https://hzhouse.zkqiang.cn/area/#运河新城)
-  - [良渚](https://hzhouse.zkqiang.cn/area/#良渚)
+  - [良渚新城](https://hzhouse.zkqiang.cn/area/#良渚新城)
 - 学区
     - 待更新...
 - 选房
