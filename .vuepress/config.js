@@ -47,7 +47,7 @@ module.exports = {
   plugins: {
     '@vuepress/last-updated': {
       transformer: (timestamp, lang) => {
-        return moment(timestamp).tz('Asia/Shanghai').locale(lang).format('lll')
+        return moment(timestamp).tz('Asia/Shanghai').locale('zh-CN').format('lll')
       },
       dateOptions: {
         hour12: false
@@ -82,5 +82,6 @@ module.exports = {
       publishedAt: $page => $page.frontmatter.date && new Date($page.frontmatter.date),
       modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated)
     },
+    'pangu': {},
   },
 };

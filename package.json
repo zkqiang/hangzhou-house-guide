@@ -25,6 +25,7 @@
     "vuepress-plugin-sitemap": "^2.3.1"
   },
   "dependencies": {
-    "markdown-it-disable-url-encode": "^1.0.1"
+    "markdown-it-disable-url-encode": "^1.0.1",
+    "vuepress-plugin-pangu": "^1.0.1"
   }
 }
