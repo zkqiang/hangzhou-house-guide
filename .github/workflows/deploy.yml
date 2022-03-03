@@ -26,12 +26,13 @@ jobs:
           yarn run build
 
       - name: Upload to Qiniu
-        uses: saltbo/uptoc@master
-        with:
-          driver: qiniu
-          region: cn-east-1
-          bucket: hzhouse
-          dist: .vuepress/dist
-        env:
-          UPTOC_UPLOADER_AK: ${{ secrets.QINIU_ACCESSKEY }}
-          UPTOC_UPLOADER_SK: ${{ secrets.QINIU_SECRETKEY }}
+        run: |
+          wget -q https://devtools.qiniu.com/qshell-v2.6.2-linux-386.tar.gz
+          tar -zxvf ./qshell-v2.6.2-linux-386.tar.gz
+          chmod +x ./qshell
+          ./qshell account -w ${{ secrets.QINIU_ACCESSKEY }} ${{ secrets.QINIU_SECRETKEY }} github
+          ./qshell listbucket hzhouse -o toupload.txt
+          ./qshell batchdelete -F'\t' --force hzhouse -i toupload.txt
+          ./qshell qupload2 --src-dir=./.vuepress/dist --bucket=hzhouse
+          echo 'https://hzhouse.zkqiang.cn/' > torefresh.txt
+          ./qshell cdnrefresh --dirs -i torefresh.txt
