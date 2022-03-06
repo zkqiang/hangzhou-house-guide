@@ -34,6 +34,7 @@
   - [钱江世纪城](https://hzhouse.zkqiang.cn/area/#钱江世纪城)
   - [运河新城](https://hzhouse.zkqiang.cn/area/#运河新城)
   - [良渚新城](https://hzhouse.zkqiang.cn/area/#良渚新城)
+  - [北部新城/勾庄](https://hzhouse.zkqiang.cn/area/#北部新城-勾庄)
 - 学区
     - 待更新...
 - 选房
