@@ -6,12 +6,6 @@ module.exports = {
   description: '2022年杭州购房指南，根据个人多年购房选房经历，总结而成的一篇买房攻略，涉及新房摇号和二手房选择，包含大量杭州城市规划资料。',
   head: [
     [ 'meta', {name: 'keywords', content: '购房,买房,选房,摇号,限购,刚需,规划,政策,新房,二手房,房贷,杭州,西湖区,拱墅,余杭,未来科技城,良渚,钱江世纪城,运河新城'} ],
-    [ 'script', {src: 'https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js'} ],
-    [ 'script', {src: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js'} ],
-    [ 'link', {
-      rel: 'stylesheet',
-      href: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css'
-    } ],
     [ 'link', {rel: 'icon', href: '/favicon.png'} ]
   ],
   themeConfig: {

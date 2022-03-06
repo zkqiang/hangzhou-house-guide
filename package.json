@@ -15,17 +15,15 @@
     "@vuepress/plugin-back-to-top": "^1.8.2",
     "@vuepress/plugin-medium-zoom": "^1.8.2",
     "@vuepress/plugin-nprogress": "^1.8.2",
+    "markdown-it-disable-url-encode": "^1.0.1",
     "moment": "^2.29.1",
     "moment-timezone": "^0.5.33",
     "vue-google-adsense": "^1.10.1",
     "vue-script2": "^2.1.0",
     "vuepress": "^1.8.2",
     "vuepress-plugin-clean-urls": "^1.1.2",
+    "vuepress-plugin-pangu": "^1.0.1",
     "vuepress-plugin-seo": "^0.1.4",
     "vuepress-plugin-sitemap": "^2.3.1"
-  },
-  "dependencies": {
-    "markdown-it-disable-url-encode": "^1.0.1",
-    "vuepress-plugin-pangu": "^1.0.1"
   }
 }
