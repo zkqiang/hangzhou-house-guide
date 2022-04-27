@@ -43,4 +43,4 @@
 
 没意见可以加我微信，验证信息填"购房"：
 
-<img width="240px" src="https://static.zkqiang.cn/images/20191206211444.jpeg-slim" alt="微信二维码">
+<img width="240px" src="https://cdn.jsdelivr.net/gh/fluid-dev/static@master/hexo-theme-fluid/wechat.png" alt="微信二维码">
