@@ -64,3 +64,15 @@
   <br />
   本作品采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
 </p>
+
+## 讨论
+
+如想参与杭州楼市相关话题的讨论，可以到[讨论区](https://github.com/zkqiang/hangzhou-house-guide/discussions)发布或回复。
+
+## 支持
+
+你可以扫描下方微信赞赏码支持我的创作：
+
+<img src="https://github.com/fluid-dev/static/blob/master/hexo-theme-fluid/sponsor.png?s=200&v=4" width="200" alt="微信赞赏码">
+
+如果你对搭建博客感兴趣，也可以关注我另一个项目 [Hexo Theme Fluid](https://github.com/fluid-dev/hexo-theme-fluid)
