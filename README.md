@@ -73,6 +73,6 @@
 
 你可以扫描下方微信赞赏码支持我的创作：
 
-<img src="https://github.com/fluid-dev/static/blob/master/hexo-theme-fluid/sponsor.png?s=200&v=4" width="200" alt="微信赞赏码">
+<img src="https://github.com/fluid-dev/static/blob/master/hexo-theme-fluid/sponsor.png?raw=true" width="200" alt="微信赞赏码">
 
 如果你对搭建博客感兴趣，也可以关注我另一个项目 [Hexo Theme Fluid](https://github.com/fluid-dev/hexo-theme-fluid)
