@@ -35,6 +35,7 @@
   - [运河新城](https://hzhouse.zkqiang.cn/area/#运河新城)
   - [良渚新城](https://hzhouse.zkqiang.cn/area/#良渚新城)
   - [北部新城/勾庄](https://hzhouse.zkqiang.cn/area/#北部新城-勾庄)
+  - [闲林](https://hzhouse.zkqiang.cn/area/#闲林)
 - 学区
     - 待更新...
 - 选房
